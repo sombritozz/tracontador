@@ -1,0 +1,92 @@
+nav{
+    position: sticky;
+    top:30px;
+}
+
+.navbar{
+    color: rgb(94, 118, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 30px;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(0, 0, 0, 0.3);
+    text-shadow: 0 0 3px ;
+}
+
+
+.faixa-texto {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: rgb(94, 118, 255);
+    text-shadow: 0 0 5px ;
+    }
+
+h1{
+    font-size: 70px;
+}
+
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+    /* background-image: url('/assets/bg-contador.png');  */
+    background-color: rgb(4, 62, 129);
+    /* background-image: url('./bg-contador.png'); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    /* user-select: none; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+a:visited{
+    color: inherit;
+}
+.mb-3{
+    width: 90vw ;
+    margin: auto;
+}
+
+button{
+    margin: 20px;
+}
+
+.form-control{
+    background-color: rgb(4, 42, 85);
+    border: 1px solid rgb(4, 42, 85);
+}
+
+.texto{
+    color: white
+}
+
+.form-control::placeholder{
+    color: rgba(186, 186, 186, 0.5)
+}
+
+footer{
+    display: flex;
+}
+
+p{
+    margin: 0 auto;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    margin: 0 auto;
+}
