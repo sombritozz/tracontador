@@ -51,7 +51,7 @@ body{
     max-width: 100%;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('assets/mixtape.jpg');
+        url('../assets/mixtape.jpg');
     background-size: 100%;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
